@@ -1,0 +1,21 @@
+footer{
+    background-color: #285A70;
+    width: 100%;
+}
+.footerbalk{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.ftpic{
+    width: 5%;
+}
+.footertext{
+    text-align: left;
+    margin: 1rem 0;
+    color: white;
+}
