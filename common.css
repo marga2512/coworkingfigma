@@ -1,0 +1,31 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+header li,header ul, .headerbalk{
+    display: inline-flex;
+}
+.logoimg{
+    width: 25%;
+    height: auto;
+}
+a{
+    width: fit-content;
+    padding: 1vw;
+    font-size: 1.2vw;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+li{
+    margin: auto;
+}
+.headerbalk{
+    border-width:5px;
+    border-bottom-style:groove;
+}
+.inschrijf{
+    background-color: #C3DFFF;
+}
