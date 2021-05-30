@@ -12,10 +12,14 @@ footer{
     justify-content: flex-end;
 }
 .ftpic{
-    width: 5%;
+    width: 10%;
 }
 .footertext{
     text-align: left;
     margin: 1rem 0;
     color: white;
+}
+footer a{
+    display: flex;
+    justify-content: flex-end;
 }
