@@ -1,0 +1,198 @@
+#container1{
+    margin: auto;
+    width: 60%;
+}
+#container2{
+    margin: auto;
+    width: 60%;
+}
+
+#container3{
+    margin: auto;
+    width: 60%;
+}
+
+.mainpic{
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 15px;
+    right: 16px;
+}
+
+.mainpic img{
+    width:100%;
+    height:100%;
+}
+
+.web-div{
+    text-align: center;
+    padding: 5px;
+}
+
+.teacher-pictures p{
+    text-align: center;
+}
+
+.opleidingshoofd{
+    background-color: #C3DFFF;
+    display: inline-flex;
+    width: 100%;
+}
+
+.leerkrachten{
+    width: 50%;
+}
+
+.leerkrachten div{
+    text-align: center;
+    padding: 5px;
+}
+
+.leerkrachten img{
+    display:block;
+    margin:auto;
+    align-self: center;
+    width: 250px;
+    height: 250px;
+}
+
+.leerkrachten a{
+    display:block;
+    margin:auto;
+    width: 50%;
+    border-radius: 25px;
+    background-color: #667DF3;
+    color: white;
+}
+
+#web-docenten{
+    display: inline-flex;
+    width: 100%;
+}
+
+#web-docenten .leerkrachten img{
+    width: 150px;
+    height: 150px;
+}
+
+.footerbalk{
+    display: inline-flex;
+    background-color: #285A70;
+    width: 100%;
+    color: white;
+}
+
+.footerbalk .footer{
+    width: 100%;
+}
+
+.footerbalk .footertext{
+    margin: auto;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.footerbalk .footer .ftpic{
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+@media only screen and (max-width: 1080px) {
+    
+    #container1{
+        margin: auto;
+        width: 100%;
+    }
+    #container2{
+        margin: auto;
+        width: 100%;
+    }
+    
+    #container3{
+        margin: auto;
+        width: 100%;
+    }
+
+    .leerkrachten a{
+        width: 50%;
+        font-size: large;
+        border-radius: 25px;
+        background-color: #667DF3;
+        color: white;
+    }
+    .leerkrachten{
+        font-size: 80%;
+    }
+
+    #web-docenten .leerkrachten img{
+        width: 100px;
+        height: 100px;
+    }
+    .leerkrachten img{
+        width: 100px;
+        height: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    
+
+    #container1{
+        margin: auto;
+        width: 100%;
+    }
+    #container2{
+        margin: auto;
+        width: 100%;
+    }
+    
+    #container3{
+        margin: auto;
+        width: 100%;
+    }
+
+    .teacher-pictures{
+        width: 100%;
+    }
+    .opleidingshoofd{
+        display: inline-block;
+        width: 100%;
+    }
+
+    #web-docenten{
+        display: inline-block;
+        width: 100%;
+    }
+
+    #web-docenten *{
+        margin: auto;
+    }
+
+    .opleidingshoofd *{
+        margin: auto;
+    }
+
+    .leerkrachten{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .teacher-pictures{
+        display: inline-block;
+    }
+    
+    #web-docenten .leerkrachten img{
+        width: 150px;
+        height: 150px;
+    }
+    .leerkrachten img{
+        width: 150px;
+        height: 150px;
+    }
+  }

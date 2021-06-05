@@ -1,0 +1,130 @@
+#container1{
+    margin: auto;
+    width: 60%;
+}
+
+#container2{
+    margin: auto;
+    width: 60%;
+}
+
+#container3{
+    margin: auto;
+    width: 60%;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#project-filter{
+    width: 100%;
+}
+
+#project-filter div h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.filter{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #7cc7eb;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.project{
+    display: inline-flex;
+    background-color: #C3DFFF;
+}
+.projectreverse{
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.image{
+    margin: auto;
+    margin-left: 20px;
+    max-width: 30%;
+    max-height: 30%;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.info p{
+    margin: 20px;
+}
+
+.title{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.footerbalk{
+    display: inline-flex;
+    background-color: #285A70;
+    width: 100%;
+    color: white;
+}
+
+.footerbalk .footer{
+    width: 100%;
+}
+
+.footerbalk .footertext{
+    margin: auto;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.footerbalk .footer .ftpic{
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+@media only screen and (max-width: 1080px) {
+    
+    #container1{
+        margin: auto;
+        width: 100%;
+    }
+    #container2{
+        margin: auto;
+        width: 100%;
+    }
+    
+    #container3{
+        margin: auto;
+        width: 100%;
+    }
+
+  }
+
+  @media only screen and (max-width: 640px) {
+    
+
+    #container1{
+        margin: auto;
+        width: 100%;
+    }
+    #container2{
+        margin: auto;
+        width: 100%;
+    }
+    
+    #container3{
+        margin: auto;
+        width: 100%;
+    }
+  }
