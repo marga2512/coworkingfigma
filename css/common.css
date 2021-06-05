@@ -29,3 +29,51 @@ li{
 .inschrijf{
     background-color: #C3DFFF;
 }
+@media only screen and (max-width: 600px) {
+    header li,header ul, .headerbalk{
+        display: block;
+        margin: 0 auto;
+    }
+    li a{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        border: solid #285A70;
+        margin: 0.5rem 0;
+    }
+    .logoimg{
+        display: flex;
+        width: 50%;
+        height: auto;
+        margin: 0 auto auto;
+    }
+    a{
+        display: flex;
+        width: fit-content;
+        padding: 0;
+        margin: 0 auto auto;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    .buttons{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttons2{
+        background-color: #C3DFFF;
+        padding: 0.5rem;
+    }
+    li{
+        width: 100%;
+    }
+    .headerbalk{
+        border-width:5px;
+        border-bottom-style:groove;
+    }
+    .inschrijf{
+        background-color: #C3DFFF;
+    }
+}

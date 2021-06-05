@@ -16,7 +16,7 @@ main{
     margin: 1rem 5%;
 }
 h1{
-    font-size: 2vw;
+    font-size: 2em;
 }
 .keuze{
     padding: 1vw 3vw;
@@ -35,11 +35,11 @@ h1{
 .keuzetekst{
     margin: 1.5vw auto;
     width: 90%;
-    font-size: 1vw;
+    font-size: 1em;
 }
 p{
     margin: 1.5vw auto;
-    font-size: 1vw;
+    font-size: 1em;
 }
 .projectpart{
     width: 100%;
@@ -72,7 +72,7 @@ p{
     width: 57%;
 }
 h2{
-    font-size: 2vw;
+    font-size: 2em;
     margin-left: 5%;
     margin-top: 1rem;
 }
@@ -89,7 +89,7 @@ ul, li{
 }
 .h3info, .h3docent{
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.5em;
     margin-top: 1rem;
 }
 .pinfo{
@@ -105,11 +105,58 @@ ul, li{
 }
 .pinfod{
     text-align: center;
-    font-size: 1vw;
+    font-size: 1em;
 }
 .leerkracht{
     width: 25%;
 }
 .h3docent{
     text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .fotohome{
+        display: none;
+    }
+    .docentinfo .inline{
+        display: block;
+    }
+    .leerkracht{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .projectpart2{
+        display: block;
+    }
+    h2, h1{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0 0;
+    }
+    .fotoschool{
+        display: none;
+    }
+    .responsive{
+        display: inline-flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .pictureproject{
+        margin: 0;
+    }
+    .pictureprogress {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    .projecttekst{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin: 1rem;
+    }
+    .list{
+        margin-left: 29%;
+        margin-top: 3%;
+    }
 }

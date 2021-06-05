@@ -19,7 +19,7 @@ p{
     height: 70%;
 }
 h1{
-    font-size: 2vw;
+    font-size: 2em;
     margin: 1rem 0;
     display: flex;
     justify-content: center;
@@ -70,7 +70,7 @@ td{
 }
 h2{
     width: 75%;
-    font-size: 1.8vw;
+    font-size: 1.8em;
     margin: 1rem auto auto;
 }
 .centeralign{
@@ -81,4 +81,86 @@ h2{
 .leerkrachtMeningWeb{
     background-color: #C3DFFF;
     padding: 1rem 0;
+}
+@media only screen and (max-width: 600px) {
+    .inline{
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .topfoto, .fototop{
+        display: none;
+    }
+    p{
+        width: 75%;
+        margin: auto auto 1rem;
+    }
+    .toppart{
+        display: flex;
+    }
+    h1{
+        font-size: 2em;
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+    }
+    table, th{
+        width: 100%;
+        background-color: #C3DFFF;
+        border: 1px solid black;
+    }
+    th{
+        width: 15%;
+        padding: 0.5rem;
+    }
+    .full {
+        width: 100%;
+        margin: auto;
+    }
+    .white{
+        background-color: white;
+    }
+    td{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        border: 1px solid black;
+    }
+    .one{
+        width: 19%;
+    }
+    .two{
+        width: 40%;
+    }
+    .three{
+        width: 60%;
+    }
+    .twoandthree{
+        display: inline-flex;
+        width: 100%;
+    }
+    .leerlingMeningWeb, .leerkrachtMeningWeb{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0 auto;
+    }
+    .imgleerling{
+        width: 25%;
+        height: 1%;
+        border-radius: 20rem;
+    }
+    h2{
+        width: 75%;
+        font-size: 1.8em;
+        margin: 1rem auto auto;
+    }
+    .centeralign{
+        display: flex;
+        align-content: center;
+        width: 70%;
+    }
+    .leerkrachtMeningWeb{
+        background-color: #C3DFFF;
+        padding: 1rem 0;
+    }
 }
