@@ -11,8 +11,10 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
-.ftpic{
-    width: 15%;
+.footerbalk .footer .ftpic{
+    width: 15px;
+    height: 15px;
+    float: right;
 }
 .footertext{
     text-align: left;

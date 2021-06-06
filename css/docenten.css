@@ -1,17 +1,19 @@
 #container1{
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
 #container2{
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
 
 #container3{
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
-
+.teacher-pictures2{
+    background-color: #C3DFFF;
+}
 .mainpic{
     padding: 0px;
     position: relative;
@@ -35,12 +37,11 @@
     padding: 5px;
 }
 
-.teacher-pictures p{
+.teacher-pictures2 p{
     text-align: center;
 }
 
 .opleidingshoofd{
-    background-color: #C3DFFF;
     display: inline-flex;
     width: 100%;
 }
@@ -77,8 +78,8 @@
 }
 
 #web-docenten .leerkrachten img{
-    width: 150px;
-    height: 150px;
+    width: 70%;
+    height: 70%;
 }
 
 .footerbalk{
@@ -104,42 +105,7 @@
     float: right;
 }
 
-@media only screen and (max-width: 1080px) {
-    
-    #container1{
-        margin: auto;
-        width: 100%;
-    }
-    #container2{
-        margin: auto;
-        width: 100%;
-    }
-    
-    #container3{
-        margin: auto;
-        width: 100%;
-    }
 
-    .leerkrachten a{
-        width: 50%;
-        font-size: large;
-        border-radius: 25px;
-        background-color: #667DF3;
-        color: white;
-    }
-    .leerkrachten{
-        font-size: 80%;
-    }
-
-    #web-docenten .leerkrachten img{
-        width: 100px;
-        height: 100px;
-    }
-    .leerkrachten img{
-        width: 100px;
-        height: 100px;
-    }
-  }
 
   @media only screen and (max-width: 640px) {
     
